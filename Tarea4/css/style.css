@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffffff;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  width: 500px;
+  height: 10px;
+  border: 4px solid gray;
+}
+th, td {
+  border: 2px solid gray;
+  text-align: center;
+  padding: 0px;
+}
+th {
+  background-color: #f2f2f2;
+}
+.image-container {
+  position: relative;
+}
+.overlay-table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffcc;
+}

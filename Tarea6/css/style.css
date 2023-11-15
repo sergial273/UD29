@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  color: orangered;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0px;
+  padding-top: 0px;
+  border: 4px solid gray;
+}
+th,
+td {
+  border: 2px solid gray;
+  text-align: center;
+  padding: 8px;
+}
+.green-background {
+  background-color: rgb(79, 239, 116);
+}
+.orange-background {
+    background-color: rgb(222, 178, 84);
+  }
+
+.yellow-background {
+    background-color: rgb(201, 222, 84);
+}
+.image-background{
+    background-image: url('../img/back_mantel.jpg');
+    background-repeat: repeat;
+}
+

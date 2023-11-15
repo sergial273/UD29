@@ -1,0 +1,19 @@
+table{
+  margin: auto;
+  margin-top: 12px;
+  border: 2px black solid;
+  text-align: center;
+}
+
+td,th,tr{
+  border:2px black solid;
+}
+
+tr:nth-child(3){
+font-weight: bold;
+}
+
+#pais{
+  text-align: left;
+}
+

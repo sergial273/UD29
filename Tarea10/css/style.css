@@ -1,0 +1,8 @@
+table,tr,td,th{ 
+  border: 2px black solid;
+}
+
+.cat{
+  font-weight: bold;
+  text-align: center;
+}
